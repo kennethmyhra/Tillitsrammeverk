@@ -782,7 +782,7 @@ Noen attributter som er definert i denne spesifikasjonen har et visst overlapp m
 | practitioner:professional_licence:authorization:text | subject:role:displayName | Helsepersonellets formelle autorisasjon (navn) |
 | practitioner:legal_entity:id  | subject:organization-id extension | Helsevirksomhetens unike identifikator (organisasjonsnummer) |
 | practitioner:legal_entity:name | subject:organization | Helsevirksomhetens navn |
-| practitioner:point_of_care:id | subject:child-organization extension | Identifikasjon av helsepersonellets arbeidssted (behandlingsstedet de formelt sett opptrer på vegne av) |
+| practitioner:point_of_care:id | subject:child-organization-id extension | Identifikasjon av helsepersonellets arbeidssted (behandlingsstedet de formelt sett opptrer på vegne av) |
 | practitioner:point_of_care:name  | subject:child-organization | Navn på helsepersonellets arbeidssted |
 | practitioner:department:id | subject:facility-id extension | Identifikasjon av enhet som ugjør helsepersonellets detaljerte organisasjonstilhørighet |
 | practitioner:department:name | subject:facility | Navn på enhet som utgjør helsepersonellets detaljerte organisasjonstilhørighet | 
